@@ -59,6 +59,9 @@ h5{
     width: 50%;
     height: 70%;
 }
+.content2>p{
+    color: blue;
+}
 .content3{
     width: 50%;
     height: 70%;
@@ -74,7 +77,11 @@ h5{
     text-align:start;
     color: white;
     font-size: 15px;
-    margin: 5px;
+    margin: 5px 5px 10px 20px;
+    padding: 0px;
+}
+.content4 p{
+    color: blue;
 }
 .footer{
     font-family: monospace;
@@ -150,9 +157,7 @@ form{
 option{
     background:rgba(189, 186, 186, 0.034);
 }
-#f-name,#l-name,#email,#phone,#password,#score,#select,label:hover{
-    
-}
+
 
 #submit{
     width: 100%;
