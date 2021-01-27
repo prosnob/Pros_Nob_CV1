@@ -13,17 +13,19 @@ body{
 }
 nav{
     padding: 30px;
+    position: sticky;
 }
 nav>ul{
     float: right;
     display: flex;
+    
 }
 ul>li{
     list-style: none;
     padding: 10px;
 }
 ul>li:hover{
-    background:rgba(128, 128, 128, 0.479);
+    background:rgba(128, 128, 128, 0.315);
 }
 nav>ul>li>a{
     font-family: monospace;
@@ -32,10 +34,10 @@ nav>ul>li>a{
     color: black;
     font-size: 20px;
 }
-a:hover{
+nav>ul>li >a:hover{
     color:white;
 }
-img{
+.head>img{
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 80px;
@@ -43,6 +45,7 @@ img{
     height: 200px;
     border-radius: 50%;
 }
+
 .contain{
     height: 65%;
     background-image: url("../imgs/bg1.jpeg");
@@ -53,22 +56,24 @@ img{
 .text1{
     font-size: 20px;
     font-weight: lighter;
-    font-family: monospace;
+    font-family: sans-serif;
     padding-top: 5vh;
-    background: rgba(181, 230, 230, 0.205);
+    background: rgba(13, 14, 14, 0.342);
     text-align: center;
+    color: white;
     height: 15%;
 }
 h5{
     padding: 10px;
 }
 .text2,.text3,.text4{
+    color: white;
     margin: 10px;
     margin-left:400px;
     font-size: 20px;
     font-weight: lighter;
-    font-family: monospace;
-    background: rgba(181, 230, 230, 0.205);
+    font-family: sans-serif;
+    background: rgba(13, 14, 14, 0.342);
     height: 25%;
     width: 500px;
 }
@@ -76,16 +81,39 @@ p{
     padding: 10px;
 }
 .footer{
-    width: auto;
+    font-family: monospace;
+    font-size: 20px;
+    width: 100%;
     height: 15%;
-    background: #000;
     display: flex;
+    flex-wrap: wrap;
+    background: rgba(124, 116, 116, 0.589);
+    color: black;
 }
 .contact{
     width: 50%;
-    background: rgb(223, 60, 60);
+    text-align: center;
+    margin-top: 40px;
 }
 .link{
+    margin-top: 15px;
     width: 50%;
-    background: rgb(71, 60, 223);
+    
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+}
+span{
+    width: 100%;
+}
+.link>li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 150px;
+
+    
 }
