@@ -73,8 +73,9 @@ h5{
     font-weight: lighter;
     font-family: sans-serif;
     background: rgba(13, 14, 14, 0.342);
-    height: 25%;
+    height: 20%;
     width: 500px;
+    margin-top: 5%;
 }
 p{
     padding: 10px;
