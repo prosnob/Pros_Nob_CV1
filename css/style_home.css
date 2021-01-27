@@ -117,7 +117,7 @@ span{
     
 }
 
-@media(max-width:800px){
+@media(max-width:700px){
     nav>ul{
         flex-direction: row;
         
@@ -163,7 +163,7 @@ span{
     }
 }
 
-@media (max-width:1100px) and (min-width:800px){
+@media (max-width:1100px) and (min-width:700px){
     body{
         height: 120vh;
     }
