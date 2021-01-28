@@ -4,8 +4,9 @@
 }
 body{
     height: 180vh;
+    background: rgba(0, 0, 0, 0.507);
 }
-.head{
+.head1{
     background-image: url("../imgs/cover.jpg");
     background-repeat: no-repeat;  
     background-size: cover;
@@ -36,7 +37,7 @@ nav>ul>li>a{
 nav>ul>li >a:hover{
     color:white;
 }
-.head>img{
+.head1>img{
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 9%;
@@ -72,67 +73,28 @@ h5{
     font-size: 20px;
     font-weight: lighter;
     font-family: sans-serif;
-    background: rgba(13, 14, 14, 0.342);
+    background: rgba(13, 14, 14, 0.521);
     height: 25%;
     width: 500px;
 }
 .text2>li{
-    color:blue;
+    color:black;
     font-family: sans-serif;
+    font-weight: bold;
 }
 .text3>li{
-    color: blue;
+    color:black;
     font-family: sans-serif;
+    font-weight: bold;
 }
 .text4>li{
-    color: blue;
+    color:black;
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 p{
     padding: 10px;
-}
-.footer{
-    font-family: monospace;
-    font-size: 20px;
-    width: 100%;
-    height: 15%;
-    display: flex;
-    flex-wrap: wrap;
-    background: rgba(124, 116, 116, 0.507);
-    color: blue;
-}
-.contact{
-    width: 50%;
-    text-align: center;
-    margin-top: 40px;
-}
-.link{
-    margin-top: 15px;
-    width: 50%;
-    
-}
-img{
-    width: 25px;
-    height: 25px;
-    margin: 10px 0px 10px 0px;
-    padding: 0px;
-}
-a>img:hover{
-    width: 30px;
-    height: 30px;
-    margin: 0px;
-}
-span{
-    width: 100%;
-}
-.link>li{
-    list-style: none;
-    font-size: 20px;
-    margin: 5px;
-    margin-left: 150px;
-
-    
 }
 
 @media(max-width:700px){
@@ -222,4 +184,246 @@ span{
             margin-top: 5%;
         }
     
+}
+/* resume */
+
+
+/* about */
+.head3{
+    background-image: url("../imgs/cover.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 15%;
+}
+.contain3{
+    height: 70%;
+    background-image: url("../imgs/bg1.jpeg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    
+}
+.photo{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.507);
+    
+}
+.photo>img{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+.text{
+    height: 20%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.507);
+
+}
+.text p{
+    padding-top: 10px;
+    
+}
+.fields{
+    height:45% ;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.507);
+}
+.field,.field,.field{
+    width: 20%;
+    margin: 20px;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #d3e0ea;
+}
+.field img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10%;
+}
+.field h5{
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.233);
+    background: #16C79A;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.field p{
+    padding: 0px 10px 10px 10px;
+    
+}
+
+/* contact */
+.head4{
+    background-image: url("../imgs/cover.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 15%;
+}
+.contain4{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../imgs/bg1.jpeg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.content1{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.507);
+}
+.content1>p{
+    color: black;
+    margin-left: 50%;
+    font-size: 200%;
+}
+.content1>span{
+    margin-left: 20%;
+    color: white;
+}
+.content2{
+    width: 50%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.507);
+}
+.content2 iframe{
+    padding-top: 15%;
+}
+.content3{
+    width: 100%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.199);
+}
+.content3>p{
+    text-align:start;
+    color: white;
+    font-size: 15px;
+    margin: 5px 5px 10px 20px;
+    padding: 0px;
+}
+.content3 p{
+    color:white;
+}
+.content3 p:hover{
+    color: yellow;
+}
+
+form{
+    width: 30%;
+    background:rgba(189, 186, 186, 0.253);
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 82%;
+    left: 25%;
+    transform:translate(-50%,-50%);
+    margin: 0px;
+    height: 80%;
+    color:black;
+    
+}
+#f-name,#l-name,#email,#phone,#password,#score,#select,label{
+    width: 100%;
+    background:rgba(209, 206, 206, 0.014);
+    box-sizing: border-box;
+    border: none;
+    border-bottom: solid 1px rgba(255, 253, 253, 0.815);
+    padding-top: 35px;
+    outline: none;
+    color:black;
+    
+}
+option{
+    background:rgba(189, 186, 186, 0.034);
+}
+#submit{
+    width: 100%;
+    background: rgb(113, 175, 175);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 25px 0px;
+}
+input[type="text"]::placeholder{
+    color: black;
+}
+input[type="email"]::placeholder{
+    color: black;
+}
+input[type="tel"]::placeholder{
+    color: black;
+}
+input[type="password"]::placeholder{
+    color: black;
+}
+#select,label{
+    text-align: center;
+    color:black;
+    
+}
+
+/* footer */
+.footer{
+    font-family: monospace;
+    font-size: 20px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(124, 116, 116, 0.507);
+    color: blue;
+}
+.contact{
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.link{
+    margin-top: 15px;
+    width: 50%;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+}
+a>img:hover{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+span{
+    width: 100%;
+}
+.link>li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 150px;
 }
