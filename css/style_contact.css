@@ -109,6 +109,11 @@ img{
     margin: 10px 0px 10px 0px;
     padding: 0px;
 }
+a>img:hover{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
 span{
     width: 100%;
 }
