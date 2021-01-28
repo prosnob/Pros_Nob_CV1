@@ -91,7 +91,7 @@ h5{
     display: flex;
     flex-wrap: wrap;
     background: rgba(124, 116, 116, 0.507);
-    color: black;
+    color: blue;
 }
 .contact{
     width: 50%;

@@ -76,6 +76,19 @@ h5{
     height: 25%;
     width: 500px;
 }
+.text2>li{
+    color:blue;
+    font-family: sans-serif;
+}
+.text3>li{
+    color: blue;
+    font-family: sans-serif;
+}
+.text4>li{
+    color: blue;
+    font-family: sans-serif;
+}
+
 p{
     padding: 10px;
 }
@@ -87,7 +100,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     background: rgba(124, 116, 116, 0.507);
-    color: black;
+    color: blue;
 }
 .contact{
     width: 50%;
