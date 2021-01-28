@@ -46,7 +46,7 @@ nav>ul>li >a:hover{
     border-radius: 50%;
 }
 
-.contain{
+.contain1{
     height: 65%;
     background-image: url("../imgs/bg1.jpeg");
     background-repeat: no-repeat; 
@@ -186,6 +186,70 @@ p{
     
 }
 /* resume */
+.head2{
+    background-image: url("../imgs/cover.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 15%;
+}
+.contain2{
+    height: 70%;
+    background-image: url("../imgs/bg1.jpeg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.form1{
+    width: 70%;
+    height: 70%;
+    margin: 5%;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
+    border: none;
+    border-radius: 10px;
+
+    background: #d3e0ea;
+}
+.exper .form2{
+    width: 30%;
+    height: 50%;
+    border: 1px solid;
+    margin: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
+    border: none;
+    border-radius: 10px;
+    
+    background: #d3e0ea;
+}
+.edu{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.507);
+}
+.hig{
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.uni{
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.exper{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.507);
+
+}
 
 
 /* about */
@@ -235,16 +299,13 @@ p{
     justify-content: center;
     background: rgba(0, 0, 0, 0.507);
 }
-.field,.field,.field{
+.field{
     width: 20%;
     margin: 20px;
     border: 1px solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
     border: none;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
     background: #d3e0ea;
 }
 .field img{
