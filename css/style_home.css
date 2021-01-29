@@ -311,7 +311,10 @@ p{
     background: rgba(0, 0, 0, 0.507);
 }
 .content2 iframe{
-    padding-top: 15%;
+    margin: 13% 10% 0 0;
+    width:90%;
+    height: 80%;
+    border-radius: 5%;
 }
 .content3{
     width: 100%;
