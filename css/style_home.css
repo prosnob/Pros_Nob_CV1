@@ -525,6 +525,7 @@ span{
         padding: 0px;
     }
     .fields{
+        height: 70%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
