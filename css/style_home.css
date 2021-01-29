@@ -5,6 +5,7 @@
 body{
     height: 180vh;
     background: rgba(0, 0, 0, 0.507);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .head1{
     background-image: url("../imgs/cover.jpg");
@@ -39,6 +40,7 @@ nav>ul>li>a{
 nav>ul>li >a:hover{
     color:tomato;
 }
+
 .head1>img{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -80,17 +82,17 @@ h5{
     width: 500px;
 }
 .text2>li{
-    color:yellow;
+    color:black;
     font-family: sans-serif;
     font-weight: bold;
 }
 .text3>li{
-    color:tomato;
+    color:black;
     font-family: sans-serif;
     font-weight: bold;
 }
 .text4>li{
-    color:red;
+    color:black;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -245,11 +247,24 @@ p{
     justify-content: center;
     background: rgb(102, 62, 62);
     color: white;
-    font-size: 150%;
+    
+}
+.textA h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
 }
 .textA a{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
     color: blueviolet;
-    background: #000;
+    font-size: 130%;
+}
+.textA a:hover{
+    font-size: 150%;
 }
 .hig{
     width: 50%;
@@ -282,6 +297,7 @@ p{
 }
 .textB h3{
     display: flex;
+    padding: 1%;
     justify-content: center;
     height: 10%;
     width: 100%;
@@ -317,7 +333,7 @@ p{
     border-radius: 50%;
 }
 .text{
-    height: 20%;
+    height: 15%;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -330,7 +346,7 @@ p{
     
 }
 .fields{
-    height:45% ;
+    height:50% ;
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.507);
@@ -398,7 +414,7 @@ p{
     font-size: 200%;
 }
 .content1>span{
-    margin-left: 20%;
+    margin-left: 10%;
     color: white;
 }
 .content2{
