@@ -31,11 +31,13 @@ nav>ul>li>a{
     font-family: monospace;
     text-decoration: none;
     margin: 20px;
-    color: black;
+    color:white;
     font-size: 20px;
+    
+    font-weight: bold;
 }
 nav>ul>li >a:hover{
-    color:white;
+    color:tomato;
 }
 .head1>img{
     padding-bottom: 0px;
@@ -78,17 +80,17 @@ h5{
     width: 500px;
 }
 .text2>li{
-    color:black;
+    color:yellow;
     font-family: sans-serif;
     font-weight: bold;
 }
 .text3>li{
-    color:black;
+    color:tomato;
     font-family: sans-serif;
     font-weight: bold;
 }
 .text4>li{
-    color:black;
+    color:red;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -246,8 +248,8 @@ p{
     font-size: 150%;
 }
 .textA a{
-    width: 100%;
-    margin-left: 5%;
+    color: blueviolet;
+    background: #000;
 }
 .hig{
     width: 50%;
@@ -273,10 +275,16 @@ p{
 .textB{
     width: 100%;
     display: flex;
-    justify-content: center;
-    background: #000;
+    flex-wrap: wrap;
+    background: rgb(102, 62, 62);
     color: white;
     font-size: 150%;
+}
+.textB h3{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
 }
 
 
