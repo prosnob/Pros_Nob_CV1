@@ -533,29 +533,12 @@ span{
     }
     .field{
         width: 100%;
-        margin: 5%;
-        border: 1px solid;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
-        border: none;
-        border-radius: 10px;
-        background: #d3e0ea;
+        margin-top: 5%;
     }
     .field img{
         width: 30px;
         height: 30px;
         padding-left: 10%;
-    }
-    .field h5{
-        border: 1px solid;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.233);
-        background: #16C79A;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border: none;
-        text-align: center;
-        padding: 10px;
-        font-size: 100%;
-        color: white;
     }
     .field p{
         padding: 0px 10px 10px 10px;
@@ -615,5 +598,12 @@ span{
     }
     .form2 p{
         font-size:70% ;
+    }
+    .field p{
+        padding: 0px 10px 10px 10px;
+        font-size: 90%;
+    }
+    .field img{
+        padding-left: 30%;
     }
 }
