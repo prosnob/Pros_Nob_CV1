@@ -81,20 +81,23 @@ h5{
 .text2>li{
     color:white;
     font-family: sans-serif;
-    font-weight: bold;
-    background: red;
+    font-size: 150%;
+    background:#16C79A;
 }
 .text3>li{
     color:white;
     font-family: sans-serif;
-    font-weight: bold;
+    font-size: 150%;
     background:blue;
 }
 .text4>li{
     color:white;
     font-family: sans-serif;
-    font-weight: bold;
     background:cornflowerblue;
+    font-size: 150%;
+}
+.span{
+    font-size: 80%;
 }
 p{
     padding: 10px;
