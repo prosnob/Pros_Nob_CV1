@@ -482,16 +482,17 @@ span{
     }
     
     .form2{
+        margin: 5px;
         width: 50%;
         height: 20%;
-        padding: 4%;
+        padding:3% ;
         
     }
     .form2 h4{
         font-size:50% ;
     }
     .form2 p{
-        font-size:60% ;
+        font-size:50% ;
     }
     
     .textA a:hover{
