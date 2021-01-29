@@ -79,19 +79,22 @@ h5{
     width: 500px;
 }
 .text2>li{
-    color:black;
+    color:white;
     font-family: sans-serif;
     font-weight: bold;
+    background: red;
 }
 .text3>li{
-    color:black;
+    color:white;
     font-family: sans-serif;
     font-weight: bold;
+    background:blue;
 }
 .text4>li{
-    color:black;
+    color:white;
     font-family: sans-serif;
     font-weight: bold;
+    background:cornflowerblue;
 }
 p{
     padding: 10px;
@@ -297,7 +300,8 @@ p{
 }
 .content1>p{
     color: black;
-    margin-left: 50%;
+    background:cornsilk;
+    margin-left: 70%;
     font-size: 200%;
 }
 .content1>span{
@@ -581,8 +585,7 @@ span{
         height: 65%;
     }
     #f-name,#l-name,#email,#phone,#password,#score,#select,label{
-        padding-top: 30px;
-        
+        padding-top: 25px;
     }
 }
 @media (max-width:1100px) and (min-width:700px){
